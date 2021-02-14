@@ -19,15 +19,15 @@ var araba ={
         console.log('araba çalışıyor')
     },
     koltuk:{
-        renk:"kırmızı";
+        renk:"kırmızı",
         adet: 4,
     }
 }
-
-//console yazdırmak için kullanılır.
-console.log (araba)
 
 //obje değiştirme örneğin araba kaza yaptıysa kazalımı yerine true
 //yazınca artık kazalı olarak çıkacaktır. 
 
 araba.kazaliMi = true;
+
+//console yazdırmak için kullanılır.
+console.log (araba)
