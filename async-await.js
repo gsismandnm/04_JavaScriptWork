@@ -14,16 +14,18 @@ function login() {
 }
 
 function listele() {
-    return new Promise(function (resolve, reject) {
+   // return new Promise(function (resolve, reject) {
         setTimeout(() => {
             resolve(console.log("ilanlar listelendi"));
         }, 2000);
-    })
+        }
+        })
 }
 
 function yorumlar() {
-    return new Promise(function (resolve, reject) {
-        setTimeout(function () { resolve(console.log("yorumlar geldi")); }, 500);
+    // return new Promise(function (resolve, reject) {
+        setTimeout(function () { resolve(console.log("yorumlar geldi")); 
+    }, 500);
     })
 }
 

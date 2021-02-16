@@ -1,5 +1,5 @@
 var arr = ["murat", "ahmet", "mehmet"];
-var arr2 =["murat", 12.3, false,{marka:"Audi", [1, 2, 3]}]
+var arr2 =["murat", 12.3, false, {marka:"Audi", [1, 2, 3]}]
 
 //arraylerin içinde indexler vardır. 
 //arr için Sıfıran başlar 0 murata 1 ahmete 2 mehmete karşıllık gelir.
@@ -22,4 +22,4 @@ arr.forEach(x=>console.log(x));
 
 //for (let index = 0; index <arr2.length; index++)
 //burada eksiklik var.
-//NOT:  arrayler kşeli parantez ile başlar ve biter.  İçinde her cinsten veriyi tutabilir.
+//NOT:  arrayler köşeli parantez ile başlar ve biter.  İçinde her cinsten veriyi tutabilir.
